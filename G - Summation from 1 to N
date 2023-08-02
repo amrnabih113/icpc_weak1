@@ -1,0 +1,12 @@
+    #include <iostream>
+    #include <bits/stdc++.h>
+    using namespace std;
+
+    int main()
+    {
+        unsigned long long x,sum;
+        cin>>x;
+        sum =(x*(x+1)/2);
+        cout<<sum;
+        return 0;
+    }
