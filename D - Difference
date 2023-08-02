@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  long long x,y,z,k;
+  cin>>x>>y>>z>>k;
+  long long a;
+  a=(x*y)-(z*k);
+  cout<<"Difference = "<<a<<"\n";
+    return 0;
+}
