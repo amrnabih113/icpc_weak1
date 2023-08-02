@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+  cout << fixed << setprecision(9);
+  float r;
+  cin>>r;
+  double bi =3.141592653;
+  double a;
+  a=(bi*r*r);
+  cout<<a;
+    return 0;
+}
