@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int floor , round, ceil,rem;
+   float div,sub,n,x;
+   cin>>n>>x;
+   div= n/x;
+   rem=n/x;
+   if(div==rem)
+   {
+       floor=rem;
+       ceil=rem;
+   }else
+   {
+   floor=rem;
+   ceil=rem+1;
+   sub=div-rem;
+   }
+   if(sub<0.5)
+   {
+    round=rem;
+   }
+   else if ((sub)>=0.5)
+   {
+      round=rem+1;
+   }
+
+
+   cout<<"floor "<<n<<" / "<<x<<" = "<<floor<<"\n";
+   cout<<"ceil "<<n<<" / "<<x<<" = "<<ceil<<"\n";
+   cout<<"round "<<n<<" / "<<x<<" = "<<round<<"\n";
+
+    return 0;
+}
