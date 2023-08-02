@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int a,b,res;
+  char op;
+  cin>>a>>op>>b;
+  if(op=='+')
+  res=a+b;
+    else if(op=='-')
+    res=a-b;
+    else if(op=='*')
+    res=a*b;
+    else if(op=='/')
+    res=a/b;
+  cout<<res;
+     return 0;
+}
