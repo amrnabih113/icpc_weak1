@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x,y;
+    cin>>x;
+    y=int(x);
+    if(x==y)
+        cout<<"int "<<y;
+    else
+        cout<<"float "<<y<<" "<<(x-y);
+    return 0;
+}
